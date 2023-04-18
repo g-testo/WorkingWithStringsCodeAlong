@@ -48,9 +48,9 @@ public class WorkingWithString {
 
         ////////////
 
-        String trackingCode = "USA-12981-Y-22";
-        char hasShipped = trackingCode.charAt(1);
-        System.out.println(hasShipped);
+//        String trackingCode = "USA-12981-Y-22";
+//        char hasShipped = trackingCode.charAt(1);
+//        System.out.println(hasShipped);
 
         ///////////////
 
@@ -70,9 +70,14 @@ public class WorkingWithString {
 
         ////////////
 
-        String str = "my@dear@aunt@sally";
-//        System.out.println(str.substring(3, 7));
-        System.out.println(Arrays.toString(str.split("@")));
+//        String str = "my@dear@aunt@sally";
+////        System.out.println(str.substring(3, 7));
+//        System.out.println(Arrays.toString(str.split("@")));
+
+
+        ////////////
+        // Start week2day2 here
+
     }
 
 
