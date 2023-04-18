@@ -30,13 +30,22 @@ public class FullNameGenerator {
         String suffix = userScanner.nextLine().trim();
 
         // Add first name to fullNameVariable
+        fullName += firstName;
+
         // * Add Middle name to fullNameVariable, Making sure to have whitespace
+        fullName += middleName;
+
         // Add last name to fullNameVariable
+        fullName += lastName;
 
         // if there is a suffix, add (", " + suffix) to fullNameVariable
         // Otherwise do nothing
+        if(!suffix.equals("")){
+            fullName += ", " + suffix;
+        }
 
         // Print out full name
+        System.out.println("Full name: " + fullName);
 
     }
 
