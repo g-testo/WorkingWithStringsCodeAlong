@@ -1,5 +1,7 @@
 package com.gt;
+import java.time.LocalDate;
 import java.util.Arrays;
+import java.util.regex.Pattern;
 
 import javax.sound.midi.SysexMessage;
 public class WorkingWithString {
@@ -77,6 +79,38 @@ public class WorkingWithString {
 
         ////////////
         // Start week2day2 here
+//        String str = "34344";
+//        int num = 10;
+//
+//        int parsedInt = Integer.parseInt(str);
+//        int sum = num + parsedInt;
+//        System.out.println("Result is: " + sum);
+        ///////
+
+
+        // string contains "id|description|quantity|price"
+
+//        String input = "111|Hot Chocolate (12-count)|21|4.99";
+//
+//        String[] tokens = input.split(Pattern.quote("|"));
+//
+//        int id = Integer.parseInt(tokens[0]);
+//        String name = tokens[1];
+//        int quantity = Integer.parseInt(tokens[2]);
+//        double price = Double.parseDouble(tokens[3]);
+
+
+
+        //////////
+//        String userInput = "2002-10-17";
+//        LocalDate birthday = LocalDate.parse(userInput);
+//        System.out.println(birthday);
+
+        /////////
+
+
+
+
 
     }
 
